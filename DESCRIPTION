@@ -1,8 +1,8 @@
 Package: showimage
 Title: Show an Image on an R Graphics Device
 Version: 1.0.0
-Author: Gabor Csardi
-Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
+Author: Gábor Csárdi
+Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
 Description: Sometimes it is handy to be able to view an image file on an
     R graphics device. This package just does that. Currently it supports
     PNG files.
@@ -17,3 +17,4 @@ Suggests:
     covr,
     testthat
 RoxygenNote: 5.0.1
+Encoding: UTF-8
