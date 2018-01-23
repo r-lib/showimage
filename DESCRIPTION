@@ -8,8 +8,8 @@ Description: Sometimes it is handy to be able to view an image file on an
     PNG files.
 License: GPL-2 | GPL-3
 LazyData: true
-URL: https://github.com/mangothecat/showimage
-BugReports: https://github.com/mangothecat/showimage/issues
+URL: https://github.com/r-lib/showimage#readme
+BugReports: https://github.com/r-lib/showimage/issues
 Imports:
     png,
     tools
