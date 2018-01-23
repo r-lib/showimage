@@ -10,6 +10,7 @@
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/r-lib/showimage?svg=true)](https://ci.appveyor.com/project/gaborcsardi/showimage)
 [![](http://www.r-pkg.org/badges/version/showimage)](http://www.r-pkg.org/pkg/showimage)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/showimage)](http://www.r-pkg.org/pkg/showimage)
+[![Coverage Status](https://img.shields.io/codecov/c/github/r-lib/showimage/master.svg)](https://codecov.io/github/r-lib/showimage?branch=master)
 
 
 Sometimes it is handy to be able to view an image file on an

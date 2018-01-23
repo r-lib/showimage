@@ -14,5 +14,6 @@ Imports:
     png,
     tools
 Suggests:
+    covr,
     testthat
 RoxygenNote: 5.0.1
