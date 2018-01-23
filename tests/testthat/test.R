@@ -30,16 +30,3 @@ test_that("errors", {
 
   expect_error(show_image(f), "Unknown image type")
 })
-
-test_that("windows() device is OK", {
-
-  if (.Platform$OS.type != "windows") skip("Windows only")
-
-  on.exit(dev.off(), add = TRUE)
-  expect_error({
-    windows()
-    rlogo <- system.file("img", "Rlogo.png", package="png")
-    show_image(rlogo)
-    dev.off()
-  }, NA)
-})

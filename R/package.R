@@ -60,7 +60,8 @@ show_image_png <- function(file, mar, asp, ...) {
 
   if (names(dev.cur()) == "windows") {
     ## windows device doesn't support semi-transparency so we'll need
-    ## to flatten the image
+    ## to flatten the image. We cannot test this, unfortunately
+    # nocov start
     transparent <- img[,,4] == 0
     img <- as.raster(img[,,1:3])
     img[transparent] <- NA
@@ -68,6 +69,7 @@ show_image_png <- function(file, mar, asp, ...) {
     ## interpolate must be FALSE on Windows, otherwise R will
     ## try to interpolate transparency and fail
     rasterImage(img, 1, 1, 2, 2, interpolate=FALSE)
+    # nocov end
 
   } else {
     ## any reasonable device will be fine using alpha
