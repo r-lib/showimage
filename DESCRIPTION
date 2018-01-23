@@ -1,11 +1,11 @@
 Package: showimage
-Title: Show an Image on an R Graphics Device
+Title: Show an Image on an 'R' Graphics Device
 Version: 1.0.0
 Author: Gábor Csárdi
 Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
 Description: Sometimes it is handy to be able to view an image file on an
-    R graphics device. This package just does that. Currently it supports
-    PNG files.
+    'R' graphics device. This package just does that. Currently it supports
+    'PNG' files.
 License: GPL-2 | GPL-3
 LazyData: true
 URL: https://github.com/r-lib/showimage#readme
