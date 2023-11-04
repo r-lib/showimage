@@ -1,6 +1,3 @@
-
-context("showimage")
-
 test_that("creates a non-empty image file", {
   ## Showimage is hard to test. Nevertheless, we test that it creates
   ## a non-empty image file.
