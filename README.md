@@ -19,9 +19,18 @@ PNG files.
 
 ## Installation
 
+Stable version:
+
 
 ```r
 devtools::install_github("r-lib/showimage")
+```
+
+Development version:
+
+
+```r
+pak::pak("r-lib/showimage")
 ```
 
 ## Usage
@@ -35,7 +44,7 @@ dev.off()
 show_image(tmp)
 ```
 
-![plot of chunk unnamed-chunk-2](./unnamed-chunk-2-1.png)
+![plot of chunk screenshot](./screenshot-1.png)
 
 ## License
 

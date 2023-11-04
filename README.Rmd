@@ -27,13 +27,21 @@ PNG files.
 
 ## Installation
 
+Stable version:
+
 ```{r eval = FALSE}
 devtools::install_github("r-lib/showimage")
 ```
 
+Development version:
+
+```{r eval = FALSE}
+pak::pak("r-lib/showimage")
+```
+
 ## Usage
 
-```{r results = "hide"}
+```{r, screenshot, results = "hide"}
 library(showimage)
 png(tmp <- tempfile(fileext = ".png"))
 pairs(iris)
