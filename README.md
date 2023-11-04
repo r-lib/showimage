@@ -35,7 +35,7 @@ dev.off()
 show_image(tmp)
 ```
 
-![plot of chunk unnamed-chunk-2](inst/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](./unnamed-chunk-2-1.png)
 
 ## License
 
