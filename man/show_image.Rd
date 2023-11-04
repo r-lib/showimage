@@ -4,8 +4,14 @@
 \alias{show_image}
 \title{Show an Image on an R Graphics Device}
 \usage{
-show_image(file, mar = c(0, 0, 0, 0), axes = FALSE, frame.plot = TRUE,
-  asp = NULL, ...)
+show_image(
+  file,
+  mar = c(0, 0, 0, 0),
+  axes = FALSE,
+  frame.plot = TRUE,
+  asp = NULL,
+  ...
+)
 }
 \arguments{
 \item{file}{Name of the image file to show.}
@@ -38,4 +44,3 @@ pairs(iris)
 dev.off()
 show_image(tmp)
 }
-

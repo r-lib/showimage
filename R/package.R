@@ -2,13 +2,13 @@
 #' Show an Image on an R Graphics Device
 #'
 #' @param file Name of the image file to show.
-#' @param mar Margin, the \code{mar} parameter, see \code{par}.
+#' @param mar Margin, the `mar` parameter, see `par`.
 #' @param axes Whether to show the axes. You need to increase the
 #'   margin to see the axis labels.
 #' @param frame.plot Whether to draw a frame around the plot.
-#' @param asp Aspect ratio parameter for \code{plot}. If \code{NULL},
+#' @param asp Aspect ratio parameter for `plot`. If `NULL`,
 #'   then the original aspect ratio of the image is used.
-#' @param ... Additonal arguments are passed to \code{plot}.
+#' @param ... Additonal arguments are passed to `plot`.
 #' @return Nothing.
 #'
 #' @importFrom png readPNG
