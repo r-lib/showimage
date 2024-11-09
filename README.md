@@ -10,7 +10,7 @@
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![](https://www.r-pkg.org/badges/version/showimage)](https://www.r-pkg.org/pkg/showimage)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/showimage)](https://www.r-pkg.org/pkg/showimage)
-[![Codecov test coverage](https://codecov.io/gh/r-lib/showimage/branch/main/graph/badge.svg)](https://app.codecov.io/gh/r-lib/showimage?branch=main)
+[![Codecov test coverage](https://codecov.io/gh/r-lib/showimage/graph/badge.svg)](https://app.codecov.io/gh/r-lib/showimage)
 <!-- badges: end -->
 
 Sometimes it is handy to be able to view an image file on an
